@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE808347-38B5-C954-65D1-FDB1E727C947" name="CLIENTES">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>CE6D0812-3756-D8FC-0E2B-3A4C839C1909</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cli_id" id="AD4D5D4D-328C-6A47-7757-91F753A8B878">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>DD0A6F98-FFF6-6037-C5AA-C074159713FE</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_nome" id="4E37705F-FA53-5FF1-FC5C-44D85249068B">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>DB3DAF5C-D743-9AD5-DADC-13D9239969B6</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_cpf" id="2C9F1C89-8F30-A0D9-A176-F6862EB60EAC">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>C56323AF-7F9E-1413-C203-F1A42E61873F</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_genero" id="91BBBBB6-EDA6-284A-A541-B6F4B9008DF1">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>4EC37500-EAB5-272D-7C28-896BD2110CBA</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94D4C524-FC51-E62E-DF75-CEC6F4675186" name="PK_CLI">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>EF5BCFB8-7741-C66D-8CF0-D6A3BF998259</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD4D5D4D-328C-6A47-7757-91F753A8B878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

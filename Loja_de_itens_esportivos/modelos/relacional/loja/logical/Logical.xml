@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="89ADB932-144F-4F22-97CB-ADC7F92142EB" mainViewID="C9CBB37C-23F8-2C84-F9AD-49C9C3451271">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-12 18:14:11 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

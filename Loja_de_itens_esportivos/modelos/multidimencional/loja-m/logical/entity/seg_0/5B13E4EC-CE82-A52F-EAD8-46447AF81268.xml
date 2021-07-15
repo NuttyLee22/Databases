@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B13E4EC-CE82-A52F-EAD8-46447AF81268" name="FATO_VENDA">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:41:43 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vnd_quant" id="09FBF899-6A77-A877-0ADE-CEC3563BA3A1">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:55:48 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vnd_preco" id="D9E02335-E0EC-92D3-FE34-C822424DAD07">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:56:27 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vnd_valor_total" id="18D4245B-A607-A308-4245-482ED4AE02B0">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:56:39 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_cod" id="1063E011-B5A5-CD10-BD01-AAC142520833">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:59:22 UTC</createdTime>
+<generatorID>BE0BBA46-A4EC-CE19-20BA-0CDFF61CCF59</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<referedAttribute>E5836FF6-FBD5-1172-63EA-2C961D42B635</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vdr_cod" id="8FAA8061-B2CB-D11F-86ED-19506356D9B1">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:59:45 UTC</createdTime>
+<generatorID>7563BB9E-8CDD-E076-7132-B1C58CDA26BD</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<referedAttribute>E7CA446D-938A-DAFA-3D93-1783663FBA74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loja_cod" id="6318AB70-31F6-AF65-696A-5AC2C1634DC7">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:00:19 UTC</createdTime>
+<generatorID>D5C199BA-D094-B41F-F2CF-C799CA107832</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<referedAttribute>9960C131-0D08-F34F-5565-64DD797A6C13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tmp_dia" id="798C1C3C-2EA0-D5B9-DB3F-CE1D04228BFC">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:00:27 UTC</createdTime>
+<generatorID>D33D4072-31AD-2C78-69C7-69E92BF0ACE8</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<referedAttribute>AA887A5D-2E7C-8D29-3885-3BB959C48811</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_cod" id="71F3EA9E-BCBE-EC1C-1DB3-F9221C537EBD">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:00:33 UTC</createdTime>
+<generatorID>297DE2BD-7731-1480-A3E8-966104229D1C</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<referedAttribute>620E2A5C-F4CE-B874-EFF8-6EEFF0ECC23D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

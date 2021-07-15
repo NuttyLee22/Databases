@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A674FFA8-566B-1574-6933-969F74661DD4" name="LOJAS_PRODUTOS">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lop_loj_id" id="0EB79D44-51B9-3097-E0B9-50CB90A2B2A9">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B59D59A-00CB-821C-1EB7-B80E4318ECE9" referredColumn="2ADD3334-F73C-D289-02D2-FECD38D06AD1"/>
+</associations>
+</Column>
+<Column name="lop_pro_id" id="160305D0-09BB-B275-591D-CBC1C12DC378">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79E7F084-F27F-3443-BB2B-F59D6F91FB95" referredColumn="B8F7F883-C3A5-92BA-F27A-C0BCBF08988A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6316AFB-126A-EAC9-4C0F-D3625819B23E" name="PK_LOP">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB79D44-51B9-3097-E0B9-50CB90A2B2A9"/>
+<colUsage columnID="160305D0-09BB-B275-591D-CBC1C12DC378"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBC45070-1628-0076-7CED-1B160CA036F7" name="FK_LOP_LOJ">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>C0AA3540-77BA-3832-B4ED-0604DB71A309</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB79D44-51B9-3097-E0B9-50CB90A2B2A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B7CE6F8-82AD-0AE5-6600-6BC1ED730C05" name="FK_LOP_PRO">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>C0AA3540-77BA-3832-B4ED-0604DB71A309</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="160305D0-09BB-B275-591D-CBC1C12DC378"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

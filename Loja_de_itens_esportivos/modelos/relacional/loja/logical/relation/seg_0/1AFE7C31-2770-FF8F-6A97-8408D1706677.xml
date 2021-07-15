@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="1AFE7C31-2770-FF8F-6A97-8408D1706677">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:55:18 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<engineerTo>
+<item key="B41BFC2C-CF3D-D633-4140-0790D01DEB08" value="true"/>
+</engineerTo>
+<sourcePk>EF5BCFB8-7741-C66D-8CF0-D6A3BF998259</sourcePk>
+<targetPk>9583C85F-403B-A6E1-DE11-25CCEEDC4F8E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE6D0812-3756-D8FC-0E2B-3A4C839C1909</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3D0D8ABF-FE47-B684-567B-FE1AA281967A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFB82F8A-59C8-2690-AD60-CA4F516292F8" name="VENDAS_PRODUTOS">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<ordsAlias>relation_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vnp_pro_id" id="EBDB06A8-A7CE-FE2D-D53D-F368C74D19E8">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC12A358-98ED-6D2B-9B58-2CF7D39C01FC" referredColumn="B8F7F883-C3A5-92BA-F27A-C0BCBF08988A"/>
+</associations>
+</Column>
+<Column name="vnp_vnd_id" id="29C4B52B-6221-9367-2D72-B88F41D3635E">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="138F0702-27A4-5288-2079-E4E538E84EE6" referredColumn="7C17C565-BE48-6277-DB19-9701AA5A8332"/>
+</associations>
+</Column>
+<Column name="vnp_quantidade" id="81525A07-B581-FB0E-3671-FACA754DF09A">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 17:12:27 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnp_preco_venda" id="92B4C07A-EF73-8063-01CC-A5AE6C46C150">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 17:12:41 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EEB65C7-3BC0-66E1-E61F-BA0C522CC373" name="PK_VNP">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBDB06A8-A7CE-FE2D-D53D-F368C74D19E8"/>
+<colUsage columnID="29C4B52B-6221-9367-2D72-B88F41D3635E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CCA6EBC-73A4-3952-2C33-711A3782A283" name="FK_VNP_PRO">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>CCE8C3AE-0392-6A18-44A8-DFC8AB4C937A</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBDB06A8-A7CE-FE2D-D53D-F368C74D19E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD3FCEA0-CC4E-1080-1999-3C3E71D8F73A" name="FK_VNP_VND">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>CCE8C3AE-0392-6A18-44A8-DFC8AB4C937A</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29C4B52B-6221-9367-2D72-B88F41D3635E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

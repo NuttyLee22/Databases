@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="loja" id="670D0C06-7DD7-05C5-B9B5-489C7D38AC39" version="3.5">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-12 18:14:10 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>670D0C06-7DD7-05C5-B9B5-489C7D38AC39</designId>
+</OSDM_Design>

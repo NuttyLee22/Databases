@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37E92491-E8DB-2573-3865-B3EA75BE66F6" name="CIDADES">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>DB336CC6-54FF-28CB-9640-CAC763050038</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cid_id" id="05D532AD-AA71-487B-23C3-2B9CC69AC9AF">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>9DA03E65-CBCD-400D-1911-054AD1067312</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cid_nome" id="36E63266-719E-E7A5-749B-37A7B448E3DC">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>B5331F19-773D-03D3-512E-364923047446</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cid_est_id" id="07E18BAD-3397-7AAC-31BE-D4D3C4E0208C">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>72F992F5-E282-84AF-F169-E5F15C2C5F46</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CA3CD58-7265-FD2D-B210-CE2CEE154A16" referredColumn="378C0BDA-D9D3-1099-B257-8C65D02BF748"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB11AAFB-CB9D-D6E6-91A9-6A5B09516A8A" name="PK_CID">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>77D98FD9-D879-A99D-065A-DEAFC1CA59D5</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05D532AD-AA71-487B-23C3-2B9CC69AC9AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D19B84B-9C20-23B1-F17E-5F31FACCCE18" name="FK_CID_EST">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>0831E153-6F30-4A59-536D-2CE21C9C5C73</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07E18BAD-3397-7AAC-31BE-D4D3C4E0208C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

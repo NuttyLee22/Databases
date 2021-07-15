@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2B0186A-8DF6-E33F-53AD-21C9C602E5F4" name="DIM_LOJA">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:40:57 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="loja_cod" id="9960C131-0D08-F34F-5565-64DD797A6C13">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:45:27 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loja_nome" id="7A20F5D7-04A3-7FB4-655E-D9B8C545A832">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:45:46 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loja_endereco" id="69C8F07D-6723-75C5-0863-7448CF8443B2">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:47:37 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loja_telefone" id="567E8BD7-606A-0F13-7EDE-4AA521C53F40">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:48:17 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loja_email" id="C15CBB46-68E2-A50A-B1ED-944F5D05091F">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:46:02 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loja_cidade" id="417406E3-7864-53F6-D576-439BADD0C474">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:48:43 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loja_estado" id="F84B2E02-4AFE-2320-55E4-7B71D32380D4">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:49:01 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CB88898-B184-3722-6454-767408715EED" name="DIM_LOJA PK">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 18:45:44 UTC</createdTime>
+<ownerDesignName>loja-m</ownerDesignName>
+<engineerTo>
+<item key="C19C7000-4BE9-D56C-449C-F305F51B656A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9960C131-0D08-F34F-5565-64DD797A6C13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B38129B9-DD22-380A-3A56-A97E0E8F5DEF" name="VENDAS">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-12 18:15:31 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<engineerTo>
+<item key="B41BFC2C-CF3D-D633-4140-0790D01DEB08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vnd_id" id="7224BD3C-F992-BA12-8A52-5F9D849555CC">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:40:16 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<engineerTo>
+<item key="B41BFC2C-CF3D-D633-4140-0790D01DEB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vnd_data" id="8D44BF05-9FA7-A868-E2BD-2C2FC5AF148D">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:41:06 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<engineerTo>
+<item key="B41BFC2C-CF3D-D633-4140-0790D01DEB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vnd_valor_total" id="3BF7BD85-D583-F8EE-24CA-73BC2480DC64">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:41:23 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<engineerTo>
+<item key="B41BFC2C-CF3D-D633-4140-0790D01DEB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vdr_id" id="ADE2E537-048D-2141-CB97-E256B005DBD3">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:54:08 UTC</createdTime>
+<generatorID>0077A573-324B-5874-C3A3-FB57D740CE21</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<engineerTo>
+<item key="B41BFC2C-CF3D-D633-4140-0790D01DEB08" value="true"/>
+</engineerTo>
+<referedAttribute>C0BDE0E7-AC19-9B68-80AD-E8B675AF7A22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_id" id="710BE863-0366-012B-B269-4640ABBF1257">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:55:03 UTC</createdTime>
+<generatorID>B4DA72D3-F874-A60D-5851-9B1F86671430</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<engineerTo>
+<item key="B41BFC2C-CF3D-D633-4140-0790D01DEB08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DD0A6F98-FFF6-6037-C5AA-C074159713FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AEEF1E4-2486-12FB-5B18-F11D0CA2AA0E" name="VENDAS PK">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:40:53 UTC</createdTime>
+<ownerDesignName>loja</ownerDesignName>
+<engineerTo>
+<item key="B41BFC2C-CF3D-D633-4140-0790D01DEB08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7224BD3C-F992-BA12-8A52-5F9D849555CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

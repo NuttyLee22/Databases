@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93C908B5-089A-2D16-D56C-1F8FA7643BD2" name="DIM_TEMPO">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>786FC855-6874-7CCF-916C-9B6334E7F032</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tmp_dia" id="FCC363CD-5804-25AD-61C5-332E19490FD5">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>AA887A5D-2E7C-8D29-3885-3BB959C48811</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tmp_mes" id="75348021-87C4-153C-E65F-D570ED8D6041">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>7293114C-70AC-74B8-41F3-29218966C09F</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tmp_bimestre" id="A62183E8-4C65-C4A2-0FE2-792370C26A04">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>3F37AE8A-23F0-293A-1072-9FF63995139C</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tmp_semestre" id="0C6002ED-A64C-76E5-8244-0AC1D1A1B7F3">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>5C4D0E46-8A9B-9274-B416-E9C25DF3DC12</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tmp_ano" id="7600B0CF-9E13-66FB-ED3C-523626771A32">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>FC8C20BF-5FBC-39AF-332F-793D49C23717</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADB86A23-411D-CA6A-E96A-4E13C97EB8BD" name="PK_DIM_TEMPO">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>388A5A93-AB1C-104C-879A-8DC606E7EF82</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC363CD-5804-25AD-61C5-332E19490FD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

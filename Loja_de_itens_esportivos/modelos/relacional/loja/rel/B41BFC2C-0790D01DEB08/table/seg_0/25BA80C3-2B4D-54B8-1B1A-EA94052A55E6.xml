@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25BA80C3-2B4D-54B8-1B1A-EA94052A55E6" name="TIPO_PRODUTOS">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>08C770E7-40FB-29FA-8F20-B578EFF27EEF</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="25065B46-CD11-C9B5-B614-12B5187CED63">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>0D7EFD9B-0FCE-945B-ECFB-98D0C8811DC1</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_descricao" id="3D63340F-E521-935A-53A0-B6D80A700D2D">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>A80BFFDC-F8A3-72FD-E404-03731946095A</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_dep_id" id="4D122CCD-F7FE-32DD-80C7-FF77086500E1">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>5A060E2E-D6C6-FF64-EF00-3284EA838B56</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53011B97-0F6A-BCDC-4331-CCAC164963DA" referredColumn="5C989A83-9453-FC77-844D-E6D33F921278"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC9F93AE-3F59-CD15-358B-147365F5EC0A" name="PK_TIP">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>042127A0-CC51-214A-A9CE-240D2852535A</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25065B46-CD11-C9B5-B614-12B5187CED63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2119ED48-F703-6623-9942-E45248118229" name="FK_TIP_DEP">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>2BC69F0A-4263-237B-BFA4-5871067975F2</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D122CCD-F7FE-32DD-80C7-FF77086500E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

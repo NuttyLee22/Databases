@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49517336-152D-5286-2768-5168A2A04895" containerWithKeyObject="5EB67653-1A32-1BA5-15EE-00100804F78C" localFKIndex="47641F32-586C-A049-F206-E1B43C884EC0" name="FK_PRO_TIP">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>A37994AC-BCDD-B34B-14F6-2A7BDBB4E87E</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<referredTableLongName>TIPO_PRODUTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25BA80C3-2B4D-54B8-1B1A-EA94052A55E6</referredTableID>
+<keyObject>EC9F93AE-3F59-CD15-358B-147365F5EC0A</keyObject>
+<referredKeyID>EC9F93AE-3F59-CD15-358B-147365F5EC0A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

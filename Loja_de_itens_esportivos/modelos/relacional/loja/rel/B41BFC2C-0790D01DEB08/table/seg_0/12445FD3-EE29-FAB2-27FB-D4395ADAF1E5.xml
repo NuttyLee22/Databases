@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12445FD3-EE29-FAB2-27FB-D4395ADAF1E5" name="VENDAS">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>B38129B9-DD22-380A-3A56-A97E0E8F5DEF</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vnd_id" id="7C17C565-BE48-6277-DB19-9701AA5A8332">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>7224BD3C-F992-BA12-8A52-5F9D849555CC</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnd_data" id="F3D96126-F43D-7318-F13A-EA549CFA84B1">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>8D44BF05-9FA7-A868-E2BD-2C2FC5AF148D</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnd_valor_total" id="7A1D49E7-2A95-9573-E98A-452563E84418">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>3BF7BD85-D583-F8EE-24CA-73BC2480DC64</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vnd_vdr_id" id="71470780-6C94-D1AB-2277-2EF42F3C132E">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>ADE2E537-048D-2141-CB97-E256B005DBD3</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA36AC08-9F18-2EAE-F3D2-1F9921180EF4" referredColumn="C09591C3-6CEC-8256-EAA1-2F76974C13C5"/>
+</associations>
+</Column>
+<Column name="vnd_cli_id" id="95DE9154-8F22-4E02-5134-16B7FA8A74E7">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>710BE863-0366-012B-B269-4640ABBF1257</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F9C4EB2-4E55-6044-9F8B-538216080B1A" referredColumn="AD4D5D4D-328C-6A47-7757-91F753A8B878"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDDE78B0-16EC-E9C9-80FA-AEE9022A3B5E" name="PK_VEN">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>1AEEF1E4-2486-12FB-5B18-F11D0CA2AA0E</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C17C565-BE48-6277-DB19-9701AA5A8332"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F49F9AC5-D19F-B258-F4FC-B294EAB66858" name="FK_VND_VDR">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>0077A573-324B-5874-C3A3-FB57D740CE21</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71470780-6C94-D1AB-2277-2EF42F3C132E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6153347-2177-30CE-0589-312E3F837254" name="FK_VND_CLI">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 16:56:26 UTC</createdTime>
+<generatorID>B4DA72D3-F874-A60D-5851-9B1F86671430</generatorID>
+<ownerDesignName>loja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95DE9154-8F22-4E02-5134-16B7FA8A74E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

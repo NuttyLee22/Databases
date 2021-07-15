@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88814919-5059-648D-F758-6A19C0D62CAE" name="DIM_CLIENTE">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:21 UTC</createdTime>
+<generatorID>7AFEA4E0-1CFF-3D92-A9C7-8D01087D6CA6</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cli_cod" id="88368A9B-8FF1-E21B-3B38-FCE4504148D4">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>E5836FF6-FBD5-1172-63EA-2C961D42B635</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_nome" id="F155AF0F-3403-7087-3C21-4E8E4716CB06">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>66A2B47F-109B-4052-7D66-0113F03F43AC</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_cpf" id="9470AEE8-FC8A-8C2D-1C02-D862FCB074E6">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>26CBF53A-9FF3-D03B-B85F-5F5E4EB9AF3C</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_genero" id="46DD391C-E6C2-A73F-2DB9-309FDA82A4CE">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>47FF2F3D-C5FC-E9FA-0137-A375AA979715</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_telefone" id="8B94DA85-1A94-3A05-E9EA-0DA4CE0A7231">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>ABEF9BD0-D09B-E241-A300-4E5DDD9FF2FC</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cli_email" id="59BA4003-470A-0748-163D-28E4F3CB2ACA">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>27B3FC6C-C594-91D8-451D-1EDF28B48BD7</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FA931B4-BD43-B96D-12F5-210B2DD19EB9" name="PK_DIM_CLIENTE">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>8E22C82A-7791-046E-2880-76D0B09432F6</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88368A9B-8FF1-E21B-3B38-FCE4504148D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

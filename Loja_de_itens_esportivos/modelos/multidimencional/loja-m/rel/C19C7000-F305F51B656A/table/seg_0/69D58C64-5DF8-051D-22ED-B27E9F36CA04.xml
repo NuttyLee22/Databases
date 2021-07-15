@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69D58C64-5DF8-051D-22ED-B27E9F36CA04" name="DIM_VENDEDOR">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>B026230B-131A-A4CE-CA2D-389DA34A8828</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vdr_cod" id="4ABE9559-4BC5-6705-4E0D-4538B04B1FFC">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>E7CA446D-938A-DAFA-3D93-1783663FBA74</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdr_nome" id="F6AA292E-CB38-E5D5-031C-D2A767B27A68">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>4011439E-2298-72EE-E380-8EE4D433F325</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vdr_salario" id="C18ED29C-48F2-8BCE-FF9C-3CC9A310DA2D">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>EC9AFA31-71BB-B738-EFBD-2B56BA12288F</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E7708D9-3DD7-309A-7940-4B63EF0E150A" name="PK_DIM_VENDEDOR">
+<createdBy>GMATOS</createdBy>
+<createdTime>2021-07-13 19:01:22 UTC</createdTime>
+<generatorID>2033E907-3E0D-5AF0-56B9-1BC7090DC860</generatorID>
+<ownerDesignName>loja-m</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ABE9559-4BC5-6705-4E0D-4538B04B1FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
