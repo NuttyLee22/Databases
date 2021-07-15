@@ -1,0 +1,21 @@
+ID_VENDA,ID_LIVRO,DATA,NOME_LIVRO,AUTOR,EDITORA,CATEGORIA,QUANTIDADE,PRECO_UNIT,VALOR_TOTAL,ICMS_UNIT,ICMS_TOTAL,PORCENTAGEM_VALOR,ID_FUNCIONARIO,ID_CLIENTE
+1,6,02-DEC-2020,Cosmos,Carl Sagan,JBC,Ficção Científica,1,41.15,41.15,01.7,01.7,100%,2,9
+2,3,06-OCT-2020,Bleach GOLD - vol.74,Tite Kubo,RELX Group,Aventura,2,22.09,44.18,02.1,04.2,50%,1,20
+3,5,27-NOV-2020,Percy Jackson e o Ladrão de Raios,William Shakespeare,Panini Comics,Aventura,1,46.49,46.49,00.9,00.9,100%,1,16
+4,2,05-NOV-2020,Harry Potter e a Câmara Secreta,Joanne Rowling,Globo Livros,Aventura,3,52.49,157.47,02.5,07.5,33.33%,3,1
+5,1,20-OCT-2020,Assassinato no Expresso do Oriente,Everson Zoio,RELX Group,Aventura,1,31.24,31.24,1.25,1.25,100%,4,15
+6,14,10-JAN-2021,Questões ENEM e FUVEST 2020,Monteiro Lobato,Panda Books,Preparatório Vestibular - Concurso Público,1,234.15,234.15,3.25,3.25,100%,5,2
+7,15,16-FEB-2021,Física para Quem tem Pressa,Carlos De Andrade,Panda Books,Preparatório Vestibular - Concurso Público,2,54.6,109.2,01.7,02.4,50%,6,3
+8,8,22-OCT-2020,Breves Respostas para Grandes Questões,Neil Tyson,Pearson,Ficção Científica,2,32.6,65.2,01.1,02.2,50%,7,4
+9,7,23-OCT-2020,A Short History of Nearly Everthing,Stephen King,Black shawn,Ficção Científica,1,33.55,33.55,1.05,1.05,100%,3,5
+10,16,26-OCT-2020,Guia do Mochileiro das Galáxias,Machado de Assis,Aleph,Ficção Científica,5,45.95,229.75,1.75,8.75,20%,4,6
+11,12,24-DEC-2020,JAVA para Leigos,Murasaki Lady,Kleet,Técnico,1,147.95,147.95,2.05,2.05,100%,2,7
+12,17,30-OCT-2020,Evangelion - Edição Especial,Miguel de Cervantes,Harper Collins,Mangás,4,75.15,300.6,2.85,11.4,25%,6,8
+13,4,13-JAN-2021,Naruto Shippuden - vol.70,Tite Kubo,Harper Collins,Ação,4,15.34,61.36,0.35,01.4,25%,2,10
+14,11,19-MAR-2021,Banco de Dados Oracle,William Shakespeare,Kleet,Técnico,2,192.95,385.9,3.05,06.1,50%,3,11
+15,6,14-NOV-2020,Cosmos,Carl Sagan,JBC,Ficção Científica,1,33.45,33.45,0.95,0.95,100%,6,12
+16,5,21-DEC-2020,Percy Jackson e o Ladrão de Raios,William Shakespeare,Panini Comics,Aventura,2,46.49,92.98,00.9,01.8,50%,5,13
+17,7,17-MAR-2021,A Short History of Nearly Everthing,Stephen King,Black shawn,Ficção Científica,1,33.55,33.55,1.05,1.05,100%,1,14
+18,2,01-NOV-2020,Harry Potter e a Câmara Secreta,Joanne Rowling,Globo Livros,Aventura,1,52.49,52.49,02.5,02.5,100%,4,17
+19,10,24-FEB-2021,Hunter x Hunter - vol.01,Tite Kubo,RNTVA Books,Ação,1,18.9,18.9,00.5,00.5,100%,3,18
+20,10,09-OCT-2021,Hunter x Hunter - vol.01,Tite Kubo,RNTVA Books,Ação,4,18.9,75.6,00.5,00.5,25%,3,19
